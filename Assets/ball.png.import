@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/net.png-d555ab4fb168bf3bd21f195f1a4f2571.stex"
+path="res://.import/ball.png-1953c7d658a9d52aab6b71a2f962f6ac.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/net.png"
-dest_files=[ "res://.import/net.png-d555ab4fb168bf3bd21f195f1a4f2571.stex" ]
+source_file="res://Assets/ball.png"
+dest_files=[ "res://.import/ball.png-1953c7d658a9d52aab6b71a2f962f6ac.stex" ]
 
 [params]
 
@@ -30,5 +30,5 @@ process/HDR_as_SRGB=false
 process/invert_color=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
