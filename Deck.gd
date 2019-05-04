@@ -6,7 +6,8 @@ Deck is just world node to increase score and handle the AI
 
 
 onready var ball: = $Ball
-var speed: = 130            # Increase the speed for difficulty
+# Increase the speed for difficulty
+var speed: = 190
 var direction: int
 
 
@@ -29,7 +30,7 @@ func _on_Ball_increase_Player_score() -> void:
 """
 Move the Computer Paddle
 """
-func _process(delta: float) -> void:
+func _physics_process(delta: float) -> void:
     # All the AI Magic
     if ball.get_pos().y > $Computer.position.y:
         direction = 1
@@ -37,7 +38,7 @@ func _process(delta: float) -> void:
         direction = -1
 
     # Smooth out movement still little buggy don't know why
-    $Computer.position.y +=  direction * lerp(0, speed * delta, delta * 50)
+    $Computer.position.y +=  direction * lerp(0, speed, delta * 0.65)
     # Magic numbers for screen size - half paddles height
     $Computer.position.y = clamp($Computer.position.y, 20, 340)
 
