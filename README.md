@@ -17,8 +17,8 @@ Feel free to copy or redistribute as you wish no credit required (Both game and 
 
 ## Screenshots
 
-![TitleScreen](./Images/title.jpg)
-![Gameplay](./Images/game_play.jpg)
+![TitleScreen](Images/title.jpg)
+![Gameplay](Images/game_play.jpg)
 
 ## Misc
 
