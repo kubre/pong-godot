@@ -8,8 +8,8 @@ All the assets in .xcf(GIMP format) and .png format are provided inside assets d
 ## Roadmap
 
 - [X] Manage Score
-- [ ] Start Screen
-- [X] Play Sounds
+- [X] Start Screen
+- [X] Sounds
 - [X] Player vs Ai Mode
 
 ## License and Copyrights
@@ -17,7 +17,8 @@ Feel free to copy or redistribute as you wish no credit required (Both game and 
 
 ## Screenshots
 
-![Gameplay](Images/game_play.png)
+![TitleScreen](./Images/title.jpg)
+![Gameplay](./Images/game_play.jpg)
 
 ## Misc
 

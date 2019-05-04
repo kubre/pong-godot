@@ -18,17 +18,23 @@ _global_script_classes=[ {
 "class": "Deck",
 "language": "GDScript",
 "path": "res://Deck.gd"
+}, {
+"base": "Control",
+"class": "TitleScreen",
+"language": "GDScript",
+"path": "res://TitleScreen.gd"
 } ]
 _global_script_class_icons={
 "Ball": "",
-"Deck": ""
+"Deck": "",
+"TitleScreen": ""
 }
 
 [application]
 
 config/name="Pong"
-run/main_scene="res://Deck.tscn"
-config/icon="res://icon.png"
+run/main_scene="res://TitleScreen.tscn"
+config/icon="res://Assets/Logo.png"
 
 [display]
 
@@ -38,6 +44,10 @@ window/size/test_width=640
 window/size/test_height=360
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 

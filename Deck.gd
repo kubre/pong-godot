@@ -7,7 +7,7 @@ Deck is just world node to increase score and handle the AI
 
 onready var ball: = $Ball
 # Increase the speed for difficulty
-var speed: = 190
+var speed: = 180
 var direction: int
 
 
@@ -42,3 +42,6 @@ func _physics_process(delta: float) -> void:
     # Magic numbers for screen size - half paddles height
     $Computer.position.y = clamp($Computer.position.y, 20, 340)
 
+
+func _on_BackButton_pressed() -> void:
+    get_tree().change_scene("res://TitleScreen.tscn")

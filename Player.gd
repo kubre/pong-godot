@@ -19,3 +19,12 @@ func _physics_process(delta: float) -> void:
     position.y += delta * direction * speed
     # Magic numbers for screen size - half paddles height
     position.y = clamp(position.y, 20, 340)
+
+
+func _on_GoUp_pressed() -> void:
+    print("Ok")
+    Input.action_press("ui_page_up")
+
+
+func _on_GoDown_pressed() -> void:
+    Input.action_press("ui_page_up")
