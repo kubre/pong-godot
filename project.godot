@@ -8,9 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Area2D",
+"class": "Ball",
+"language": "GDScript",
+"path": "res://Ball.gd"
+}, {
+"base": "Node2D",
+"class": "Deck",
+"language": "GDScript",
+"path": "res://Deck.gd"
+} ]
 _global_script_class_icons={
-
+"Ball": "",
+"Deck": ""
 }
 
 [application]
